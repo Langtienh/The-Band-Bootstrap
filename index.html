@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968672.png">
+    <title>Music | Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/mixin.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex align-items-center fs-5 p-2">
+                <a href="#"><i class="fa-solid fa-user me-3"></i></a>
+                <strong>Welcome to Music Festival 2024</strong>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#welcome" style="padding-block: 15.5px;">Festava Live</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#welcome" aria-current="page">Home
+                            <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artits">Artits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main data-bs-spy="scroll" data-bs-target="#collapsibleNavId">
+        <section id="welcome">
+            <div class="video-wrap">
+                <div class="overlay"></div>
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="assets/img/welcome-bg.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="unoverlay welcom-pd">
+                    <div class="container h-100">
+                        <div class="welcome-caption text-white d-flex flex-column align-items-center h-100">
+                            <h6>FESTAVA LIVE PRESENTS</h6>
+                            <h1 class="display-2 fw-bold mb-5">Night Live 2023</h1>
+                            <a href="#" class="btn btn-danger rounded-5 fw-bold">Let's begin</a>
+                            <div class="mt-auto d-flex justify-content-between w-100">
+                                <h4>
+                                    <i class="fa-regular fa-clock text-danger"></i>
+                                    10 - 12th, Dec 2023
+                                </h4>
+                                <h4>
+                                    <i class="fa-solid fa-location-dot text-danger"></i>
+                                    National Center, United States
+                                </h4>
+                                <h4>
+                                    Share
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                </h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row lg-row-cols-2 row-cols-1 g-4">
+                    <div class="text-white">
+                        <h2 class="display-5 fw-bold mb-5">About Festava 2022</h2>
+                        <p>Festava Live is free CSS template provided by TemplateMo website. This layout is built on
+                            Bootstrap v5.2.2 CSS library. You are free to use this template for your commercial website.
+                        </p>
+                        <h4 class="fw-bold">Once in Lifetime Experience</h4>
+                        <p>You are not allowed to redistribute the template ZIP file on any other website without a
+                            permission.</p>
+                        <h4 class="fw-bold">Whole Night Party</h4>
+                        <p>Please tell your friends about our website. Thank you.</p>
+                    </div>
+                    <div class="position-relative">
+                        <img class="rounded-5" src="assets/img/about.jpg" alt="">
+                        <div class="position-absolute rounded-4 about__happy text-black d-flex align-items-center">
+                            <i class="fa-solid fa-circle-user fa-4x me-auto"></i>
+                            <div>
+                                <h2 class="fw-bolder">a happy moment</h2>
+                                <p>your amazing festival experience with us</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="artits">
+            <div class="container">
+                <div class="row row-cols-1 lg-row-cols-2 g-4">
+                    <div class="position-relative member effect">
+                        <img class="rounded-5" src="assets/img/artits (1).jpg" alt="">
+                        <div class="in4 effect-item">
+                            <div>
+                                <h4 class="in4__label">Name</h4>
+                                <p class="d-inline-block fs-5">Madona</p>
+                            </div>
+                            <div>
+                                <h4 class="in4__label">Birthdate:</h4>
+                                <p class="d-inline-block fs-5"> August 16, 1958</p>
+                            </div>
+                            <div>
+                                <h4 class="in4__label">Music</h4>
+                                <p class="d-inline-block fs-5"> Pop, R&B</p>
+                            </div>
+                            <hr class="border-2">
+                            <div>
+                                <h4 class="in4__label">Youtube Channel:</h4> <a href="#" class="d-inline-block fs-5">
+                                    Madona Official</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between">
+                        <div class="position-relative member effect mb-4">
+                            <img class="rounded-5" src="assets/img/artits (2).jpg" alt="">
+                            <div class="in4 effect-item">
+                                <div>
+                                    <h4 class="in4__label">Name</h4>
+                                    <p class="d-inline-block fs-5">Madona</p>
+                                </div>
+                                <div>
+                                    <h4 class="in4__label">Birthdate:</h4>
+                                    <p class="d-inline-block fs-5"> August 16, 1958</p>
+                                </div>
+                                <div>
+                                    <h4 class="in4__label">Music</h4>
+                                    <p class="d-inline-block fs-5"> Pop, R&B</p>
+                                </div>
+                                <hr class="border-2">
+                                <div>
+                                    <h4 class="in4__label">Youtube Channel:</h4> <a href="#"
+                                        class="d-inline-block fs-5"> Madona Official</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-relative member effect">
+                            <img class="rounded-5" src="assets/img/artits (3).jpg" alt="">
+                            <div class="in4 effect-item">
+                                <div>
+                                    <h4 class="in4__label">Name</h4>
+                                    <p class="d-inline-block fs-5">Madona</p>
+                                </div>
+                                <div>
+                                    <h4 class="in4__label">Birthdate:</h4>
+                                    <p class="d-inline-block fs-5"> August 16, 1958</p>
+                                </div>
+                                <div>
+                                    <h4 class="in4__label">Music</h4>
+                                    <p class="d-inline-block fs-5"> Pop, R&B</p>
+                                </div>
+                                <hr class="border-2">
+                                <div>
+                                    <h4 class="in4__label">Youtube Channel:</h4> <a href="#"
+                                        class="d-inline-block fs-5"> Madona Official</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule">
+            <div class="container text-white text-center">
+                <h2 class="fs-1 mb-4">Event Schedule</h2>
+                <div class="schedule shadow-lg">
+                    <h5 class="bg-danger">Date</h5>
+                    <h5 class="bg-danger">Wednesday</h5>
+                    <h5 class="bg-danger">Thursday</h5>
+                    <h5 class="bg-danger">Friday</h5>
+                    <h5>Day 1</h5>
+                    <div>
+                        <h3 class="fw-bold">Pop Night</h3>
+                        <p>5:00 - 7:00 PM</p>
+                        <p>By Adeles</p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <h3 class="fw-bold">Rock & Roll</h3>
+                        <p>7:00 - 11:00 PM</p>
+                        <p>By Rihana</p>
+                    </div>
+                    <h5>Day 2</h5>
+                    <div></div>
+                    <div>
+                        <h3 class="fw-bold">DJ Night</h3>
+                        <p>6:30 - 9:30 PM</p>
+                        <p>By Rihana</p>
+                    </div>
+                    <div></div>
+                    <h5>Day 3</h5>
+                    <div>
+                        <h3 class="fw-bold">Country Music</h3>
+                        <p>4:30 - 7:30 PM</p>
+                        <p>By Rihana</p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <h3 class="fw-bold">Free Styles</h3>
+                        <p>6:00 - 10:00 PM</p>
+                        <p>By Members</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container">
+                <h2 class="text-center fw-bold fs-1">Plans, you' love</h2>
+                <div class="row row-cols-1 lg-row-cols-2 g-4">
+                    <div class="pricing__item position-relative">
+                        <h5>Early Bird <span class="fs-2">$120</span></h5>
+                        <p>Including good things:</p>
+                        <ul>
+                            <li>digital experiences</li>
+                            <li>digital experience</li>
+                            <li>high-quality sound</li>
+                            <li>standard content</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger btn-lg">Buy Ticket</a>
+                        <div class="pricing__sale">
+                            <h5>Save up to</h5>
+                            <h3>50%</h3>
+                        </div>
+                    </div>
+
+                    <div class="pricing__item">
+                        <h5>Standard <span class="fs-2">$240</span></h5>
+                        <p>What makes a premium festava?</p>
+                        <ul>
+                            <li>platform for potential customers</li>
+                            <li>digital experience</li>
+                            <li>high-quality sound</li>
+                            <li>premium content</li>
+                            <li>live chat support</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger btn-lg">Buy Ticket</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="fs-1 text-center mb-5">Interested? Let's talk</h2>
+                <div class="shadow-lg mx-auto p-4 rounded-5" style="max-width: 736px;">
+                    <ul class="nav nav-fill nav-pills mb-3 w-75 mx-auto" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Contact Form</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Google Maps</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+                            <a href="#" class="btn btn-danger btn-lg rounded-5 mx-auto d-block w-25">Send massage</a>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <img class="rounded-4" src="assets/img/maps.jpg" alt="google maps">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer1 bg-danger">
+            <div class="container">
+                <div class="text-white py-4 row row-cols-1 lg-row-cols-2">
+                    <h2 class="fs-1 fw-bolder">Festava Live</h2>
+                    <h3 class="ms-lg-auto d-flex align-items-center gap-3">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="mb-4 col-12 lg-col-6">
+                        <h4 class="text-warning mb-4">Links</h4>
+                        <div class="d-flex align-items-center gap-2">
+                            <a href="#welcome">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#artists">Artists</a>
+                            <a href="#schedule">Schedule</a>
+                            <a href="#pricing">pricing</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </div>
+                    <div class="mb-4 col-12 lg-col-3 md-col-6">
+                        <h4 class="text-warning mb-4">Have a question?</h4>
+                        <p>
+                            <a href="#">
+                                <i class="fa-solid fa-phone"></i>
+                                090-080-0760
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                                hello@company.coms
+                            </a>
+                        </p>
+                    </div>
+                    <div class="mb-4 col-12 md-col-6 lg-col-3">
+                        <h4 class="text-warning mb-4">Location</h4>
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Silang Junction South, Tagaytay, Cavite, Philippiness
+                        </p>
+                    </div>
+
+                </div>
+                <p class="border-top">Copyright © 2036 Festava Live Company</p>
+                <p>Tiến học Bootstrap <a href="https://templatemo.com/live/templatemo_583_festava_live">Template</a></p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
